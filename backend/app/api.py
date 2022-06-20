@@ -6,7 +6,8 @@ app = FastAPI()
 origins = [
   'http://localhost:3000',
   'localhost:3000',
-  'https://delicate-cascaron-81044e.netlify.app',
+  'https://todo-rad.netlify.app',
+  '*',
 ]
 
 app.add_middleware(
